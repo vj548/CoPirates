@@ -1,0 +1,28 @@
+{
+  "mutations": [
+    {
+      "pattern": "Query 'SELECT login FROM github.user LIMIT 1' returned 1 rows",
+      "timestamp": 1779967296.2790842
+    },
+    {
+      "pattern": "Query 'SELECT name FROM github.repositories LIMIT 2' returned 2 rows",
+      "timestamp": 1779967298.2755852
+    },
+    {
+      "pattern": "Query 'SELECT login FROM github.user LIMIT 1' returned 1 rows",
+      "timestamp": 1779967299.24855
+    },
+    {
+      "pattern": "Query 'SELECT login FROM github.user LIMIT 1' returned 1 rows",
+      "timestamp": 1779968727.149713
+    },
+    {
+      "pattern": "Query 'SELECT name FROM github.repositories LIMIT 2' returned 2 rows",
+      "timestamp": 1779968728.7194135
+    },
+    {
+      "pattern": "Query 'SELECT login FROM github.user LIMIT 1' returned 1 rows",
+      "timestamp": 1779968729.8245616
+    }
+  ]
+}
