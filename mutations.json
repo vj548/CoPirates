@@ -23,6 +23,18 @@
     {
       "pattern": "Query 'SELECT login FROM github.user LIMIT 1' returned 1 rows",
       "timestamp": 1779968729.8245616
+    },
+    {
+      "pattern": "Query 'SELECT login FROM github.user LIMIT 1' returned 1 rows",
+      "timestamp": 1779972836.6364663
+    },
+    {
+      "pattern": "Query 'SELECT name FROM github.repositories LIMIT 2' returned 2 rows",
+      "timestamp": 1779972837.957466
+    },
+    {
+      "pattern": "Query 'SELECT login FROM github.user LIMIT 1' returned 1 rows",
+      "timestamp": 1779972839.325993
     }
   ]
 }
