@@ -31,7 +31,7 @@ text
 
 ---
 
-## 🚀 Demo Query - Cross-Source JOIN
+## Demo Query - Cross-Source JOIN
 
 ```sql
 SELECT 
