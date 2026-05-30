@@ -1,4 +1,4 @@
-# 🏴‍☠️ Security Trinity
+#  Security Trinity
 
 ## AI-Powered Cybersecurity Investigation Agent
 
@@ -6,11 +6,11 @@
 
 ---
 
-## 📌 The Problem
+## The Problem
 
 Security teams receive **10,000+ alerts daily**. 99% are false positives. Real threats get buried. Investigations take 4+ hours. No learning between incidents.
 
-## 🎯 The Solution
+## The Solution
 
 **Security Trinity** automates security investigations by joining data across **GitHub, Slack, Sentry, and PagerDuty** in **one SQL query**. No ETL. No glue code. Just pure SQL power.
 
@@ -20,14 +20,14 @@ text
 
 ---
 
-## 📊 Data Sources Connected
+## Data Sources Connected
 
 | Source | Status | Tables Available |
 |--------|--------|------------------|
-| **GitHub** | ✅ Connected | 362 tables (PRs, commits, contributors, issues) |
-| **Slack** | ✅ Connected | Channels, users, messages |
-| **Sentry** | ✅ Connected | Projects, events, issues |
-| **PagerDuty** | ✅ Connected | Incidents, services, alerts |
+| **GitHub** | Connected | 362 tables (PRs, commits, contributors, issues) |
+| **Slack** | Connected | Channels, users, messages |
+| **Sentry** | Connected | Projects, events, issues |
+| **PagerDuty** | Connected | Incidents, services, alerts |
 
 ---
 
@@ -51,7 +51,7 @@ jrieken	12,778	social	javascript-nextjs	Connected
 jrieken	12,778	all-gosh1234	javascript-nextjs	Connected
 Tyriar	12,517	social	javascript-nextjs	Connected
 Tyriar	12,517	all-gosh1234	javascript-nextjs	Connected
-✨ Features
+Features
 Feature	Description
 Coral SQL Layer	Query GitHub, Slack, Sentry, PagerDuty as SQL tables
 Cross-Source JOINs	Join data across ALL sources in one query
@@ -61,14 +61,14 @@ TheHive	Complete case management for incidents
 Cortex	Alert enrichment with 50+ security analyzers
 Temporal Workflows	Reliable async task execution for Shannon
 Real-time Dashboard	Interactive UI showing investigation results
-📈 Results & Impact
+Results & Impact
 Metric	Before Security Trinity	After Security Trinity
 False Positives	10,000+ per day	~100 per day
 Investigation Time	4+ hours	30 seconds
 Data Correlation	Manual across 6+ tools	One SQL query
 Learning	None	Darwin evolves after each incident
 Alert Validation	Manual	Automated via Coral cross-source JOIN
-🛠️ Tech Stack
+Tech Stack
 Layer	Technology
 Query Layer	Coral (open-source SQL interface)
 Backend API	FastAPI + Python
@@ -93,7 +93,8 @@ security-trinity/
 ├── requirements.txt            # Python dependencies
 ├── .gitignore                  # Git ignore rules
 └── README.md                   # This file
-🚀 Quick Start Guide
+
+Quick Start Guide
 Prerequisites
 Docker Desktop (for TheHive & Cortex)
 
@@ -136,7 +137,8 @@ Step 5: Run Backend (Optional)
 bash
 pip install -r requirements.txt
 python backend.py
-🔄 Darwin Learning Example
+
+Darwin Learning Example
 Darwin automatically learns patterns from each investigation:
 
 json
